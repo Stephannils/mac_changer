@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import subprocess
 import optparse
@@ -52,6 +52,7 @@ def get_mac(interface):
     else:
         print("Interface has no MAC address, Please try with a different interface")
         sys.exit()
+
 
 try:
     options = get_arguments()
